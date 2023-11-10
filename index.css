@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: #2b3359;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: Digital;
+    src: url("Digital.ttf");
+}
+
+.score {
+    font-family: Digital;
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    background-color: #000000;
+    padding: 5px 0px;   
+    margin-top: 0;
+}
+
+button {
+    background-color: #2b3359;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: Digital;
+    font-size: 11px;
+    margin-top: 12px;
+    padding: 4px 7px;
+}
